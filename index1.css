@@ -17,41 +17,51 @@ h1{
   font-size: 19px;
   color:#ff38ee;
 }
-
 header{
   width: 100%;
   height: 100px;
-  background-color:#ccd;
+  background-color:#F9E9E5;
   color:fff;
   font-size: 12px;
 }
+#content{
+  padding: 10px;
+  text-align: justify;
+  line-height: 1.3;
+  background-color: #fff;
+  border:1px solid #ccc;
+  min-height: 560px;
+  }
+#content p{
+  font-size: 14px;
+  font-family: "Times New Roman", Georgia, Serif;
+
+}
+footer{
+  background-color: #ccc;
+  padding: 10px;
+
+}
 nav ul{
-  background-color:#ddd;
-  color:fff;
-  font-size: 12px;
+  list-style-type: none;
+  background-color:#797473;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
 }
 nav ul li{
   display: inline-block;
-  background-color:#ddd;
-  color:fff;
-  font-size: 12px;
-  margin: 0px;
-  padding: 8px;
-  list-style: none;
+  border-right: 1px solid #bbb;
   font-weight: bold;
 }
 nav ul li a{
   display: block;
   text-decoration: none;
   color:#fff;
-  fornt-size:12px;
-  font-weight: bold;
+  padding: 14px 16px;
 }
 nav ul li a:hover{
-  display: block;
   text-decoration: none;
   color:#fff;
-  fornt-size:12px;
-  font-weight: bold;
-  background-color: #808080;
+  background-color: #8D8862;
 }
